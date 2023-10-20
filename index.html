@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Az's</a>
+      <nav class="navbar">
+        <a href="#home" class="hvr-underline-from-center">Home</a>
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+    </header>
+    <section id="home">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="home-content"
+      >
+        <h1>Hi, I'm Az's</h1>
+        <h3>Fashion designer, who is interested in Coding</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ipsa
+          aperiam odio, officiis dolore nihil laborum provident earum non
+          dolorem doloribus necessitatibus aliquid fugit nisi unde eius
+          consectetur! Quisquam, commodi?
+        </p>
+        <div class="btn-box">
+          <a href="#">Contact me</a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="main">
+        <img data-aos="zoom-in" src="pic/logo.jpg" alt="" />
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe
+            labore blanditiis, non sed facere est rem minus optio! Dolor dolore
+            ea nihil similique sit neque iure, modi doloribus ullam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="works">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        class="work-container"
+      >
+        <div class="work-card">
+          <img class="work-img" src="pic/youtube(1).svg" alt="" />
+          <p class="languages">HTML, CSS</p>
+          <p class="work-header">Youtube copy</p>
+          <a
+            class="visit"
+            href="https://azzgan.github.io/youtube/"
+            target="_blank"
+            ><p>visit</p>
+            <img src="pic/ExternalLink.svg" alt="" width="20px"
+          /></a>
+        </div>
+        <div class="work-card">
+          <img class="work-img" src="pic/facebook.svg" alt="" />
+          <p class="languages">HTML, CSS</p>
+          <p class="work-header">Facebook copy</p>
+          <a class="visit" href="https://www.facebook.com/" target="_blank"
+            ><p>visit</p>
+            <img src="pic/ExternalLink.svg" alt="" width="20px"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
